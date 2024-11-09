@@ -1,0 +1,30 @@
+* {
+    margin: 0; 
+}
+
+header {
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(77, 0, 0);
+}
+
+footer {
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(77, 0, 0);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    background-color:rgb(85, 85, 85);
+}
+
+.no {
+    display: none;
+}
